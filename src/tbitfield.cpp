@@ -128,11 +128,11 @@ TBitField TBitField::operator|(const TBitField &bf) // операция "или"
 
 TBitField TBitField::operator&(const TBitField &bf) // операция "и"
 {
-	TBitField tmp(BitLen > bf.BitLen ? BitLen : bf.BitLen);
-	for (int i = 0; i < MemLen; i++) {
+	TBitField tmp(BitLen < bf.BitLen ? BitLen : bf.BitLen);
+	for (int i = 0; i < tmp.MemLen; i++) {
 		tmp.pMem[i] = pMem[i];
 	}
-	for (int i = 0; i < bf.MemLen; i++) {
+	for (int i = 0; i < tmp.BitLen; i++) {
 		tmp.pMem[i] = tmp.pMem[i] & bf.pMem[i];
 	}
 	return tmp;
