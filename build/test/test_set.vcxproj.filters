@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Антон Заятников.000\Documents\GitHub\mp2-lab1-set\test\test_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Антон Заятников.000\Documents\GitHub\mp2-lab1-set\test\test_tbitfield.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Антон Заятников.000\Documents\GitHub\mp2-lab1-set\test\test_tset.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Антон Заятников.000\Documents\GitHub\mp2-lab1-set\test\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8676526B-55BE-347D-9A20-4E841E26FF97}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
